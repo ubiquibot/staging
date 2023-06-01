@@ -40,5 +40,5 @@ priority-labels:
     target: "Price: 500+ USD"
 auto-pay-mode: true
 analytics-mode: false
-incentive-mode: false
+incentive-mode: true
 max-concurrent-bounties: 2
