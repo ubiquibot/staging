@@ -1,1 +1,1 @@
-# staging
+# The staging repo of ubiquibot
