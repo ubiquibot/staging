@@ -29,7 +29,7 @@ priority-labels:
   - name: "Priority: 4 (Emergency)"
     weight: 5
 default-labels:
-  - "Time: <1 Day"
+  - "Time: <1 Hour"
   - "Priority: 0 (Normal)"
 auto-pay-mode: true
 analytics-mode: true
