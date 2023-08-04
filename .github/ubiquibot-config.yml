@@ -30,7 +30,7 @@ priority-labels:
     weight: 5
 default-labels:
   - "Time: <1 Hour"
-  - "Priority: 1 (Medium)"
+  - "Priority: 0 (Normal)"
 auto-pay-mode: true
 analytics-mode: true
 incentive-mode: false
