@@ -38,13 +38,19 @@ max-concurrent-bounties: 2
 promotion-comment: "\n<h6>If you enjoy the DevPool experience, please follow <a href='https://github.com/ubiquity'>Ubiquity on GitHub</a> and star <a href='https://github.com/ubiquity/devpool-directory'>this repo</a> to show your support. It helps a lot!</h6>"
 register-wallet-with-verification: false
 command-settings:
-  [
-    { name: "start", enabled: false },
-    { name: "stop", enabled: false },
-    { name: "wallet", enabled: false },
-    { name: "payout", enabled: false },
-    { name: "multiplier", enabled: false },
-    { name: "query", enabled: true },
-    { name: "allow", enabled: false },
-    { name: "autopay", enabled: true },
-  ]
+  - name: start
+    enabled: true
+  - name: stop
+    enabled: true
+  - name: wallet
+    enabled: true
+  - name: payout
+    enabled: true
+  - name: multiplier
+    enabled: true
+  - name: query
+    enabled: true
+  - name: allow
+    enabled: true
+  - name: autopay
+    enabled: true
