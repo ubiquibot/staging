@@ -39,7 +39,7 @@ promotion-comment: "<h6>If you've enjoyed your experience in the DevPool, we'd a
 register-wallet-with-verification: false
 command-settings:
   - name: start
-    enabled: false
+    enabled: true
   - name: stop
     enabled: true
   - name: wallet
