@@ -1,7 +1,7 @@
 ---
-evm-network-id: 100
-price-multiplier: 1.5
-time-labels:
+evmNetworkId: 100
+priceMultiplier: 1.5
+timeLabels:
   - name: "Time: <1 Hour"
     weight: 0.125
     value: 3600
@@ -17,7 +17,7 @@ time-labels:
   - name: "Time: <1 Month"
     weight: 4
     value: 2592000
-priority-labels:
+priorityLabels:
   - name: "Priority: 0 (Normal)"
     weight: 1
   - name: "Priority: 1 (Medium)"
@@ -28,16 +28,16 @@ priority-labels:
     weight: 4
   - name: "Priority: 4 (Emergency)"
     weight: 5
-default-labels:
+defaultLabels:
   - "Time: <1 Hour"
   - "Priority: 1 (Normal)"
   - "Test"
-payment-permit-max-price: 1000
-comment-incentives: true
-max-concurrent-bounties: 2
-promotion-comment: "<h6>If you've enjoyed your experience in the DevPool, we'd appreciate your support. Follow <a href='https://github.com/ubiquity'>Ubiquity on GitHub</a> and star <a href='https://github.com/ubiquity/devpool-directory'>this repo</a>. Your endorsement means the world to us and helps us grow!</h6><h6>We are excited to announce that the DevPool and UbiquiBot are now available to partners! Our ideal collaborators are globally distributed crypto-native organizations, who actively work on open source on GitHub, and excel in research & development. If you can introduce us to the repository maintainers in these types of companies, we have a special bonus in store for you!</h6>"
-register-wallet-with-verification: false
-command-settings:
+paymentPermitMaxPrice: 1000
+commentIncentives: true
+maxConcurrentBounties: 2
+promotionComment: "<h6>If you've enjoyed your experience in the DevPool, we'd appreciate your support. Follow <a href='https://github.com/ubiquity'>Ubiquity on GitHub</a> and star <a href='https://github.com/ubiquity/devpool-directory'>this repo</a>. Your endorsement means the world to us and helps us grow!</h6><h6>We are excited to announce that the DevPool and UbiquiBot are now available to partners! Our ideal collaborators are globally distributed crypto-native organizations, who actively work on open source on GitHub, and excel in research & development. If you can introduce us to the repository maintainers in these types of companies, we have a special bonus in store for you!</h6>"
+registerWalletWithVerification: false
+commandSettings:
   - name: start
     enabled: true
   - name: stop
